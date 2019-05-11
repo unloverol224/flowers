@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+  <link href="prj.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.4.0.min.js">
+	</script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/323909/wow.js"></script>
+<style>
+.flower{
+	background-color:#ff66ff;
+}
+.border{
+	border: 7px groove mediumslateblue;
+}
+.close {
+	cursor: pointer;
+	width: 100px;
+	height: 150px;	
+	border: 2px solid transparent;
+	border-radius: 80%;
+	background-color: pink;			
+}
+.flower-item {
+	text-align: center;
+	width: 10%;
+
+	margin: 0 20px;
+	padding: 10px;
+}
+.flower_pictures-buy span{
+
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	text-align:center;
+}
+.flower_pictures-buy input{
+	width:30px;
+	text-align:center;
+}
+.h1{
+text-align: center;
+}
+.justify-right{
+	justify-content: center;
+}
+
+.oplata {
+	width:300px;
+	height:100px;
+	cursor: pointer;
+	text-align:right;
+}
+.bgi{
+	background-image: url(https://media2.giphy.com/media/xT8qBhgUqOOWII72Pm/giphy.gif);
+	
+}
+
+</style>
+</head>
+<body class="bgi">
+	<script>
+function myFunction() {
+  document.getElementById("myDiv").style.borderStyle = "groove";
+}
+</script>
+<h1 class="h1">WELCOME TO THE STORE</h1>
+<div class="redrose flower flower-item border">
+			<div class="redrose__name">Red Rose</div>
+	<img class=" close redrose justify-right flex" src="http://www.pngpix.com/wp-content/uploads/2016/03/Red-Rose-PNG-image-500x601.png">
+			<div class="redrose__cost"><span class="redrose__cost-title">Cost:</span><span class="redrose__cost-price">15</span></div>
+
+<div class="flower_pictures-buy">
+	<button class="minus">
+		<span>-</span>
+	</button>
+	<button class="sum">
+		<input type="text" value="1">
+	</button>
+	<button class="plus">
+		<span>+</span>
+	</button>
+
+</div>
+
+</div>
+
+<div class="whightrose flower flower-item border">
+	<div class="whightrose__name">Whight Rose</div>
+	<img class=" close whiterose justify-right flex" src="https://www.pngarts.com/files/3/White-Rose-Download-Transparent-PNG-Image.png">
+	<div class="whightrose__cost"><span class="whightrose__cost-title">Cost:</span><span class="whightrose-item__cost-price">16</span>
+</div>
+
+<div class="flower_pictures-buy">
+	<button class="minus">
+		<span>-</span>
+	</button>
+	<button class="sum">
+		<input type="text" value="1">
+	</button>
+	<button class="plus">
+		<span>+</span>
+	</button>
+</div>
+</div>
+<div class="tulip flower flower-item border">
+	<div class="tulip__name">Tulip</div>
+	<img class=" close tulip justify-right flex" src="https://freepngimg.com/thumb/tulip/4-2-tulip-png-clipart.png">
+	<div class="tulip__cost"><span class="tulip__cost-title">Cost:</span><span class="tulip-item__cost-price">10</span>
+</div>
+
+<div class="flower_pictures-buy">
+	<button class="minus">
+		<span>-</span>
+	</button>
+	<button class="sum">
+		<input type="text" value="1">
+	</button>
+	<button class="plus">
+		<span>+</span>
+	</button>
+
+</div>
+</div>
+
+<div class="oplata">
+	<button>
+		<img class="oplata" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDf8KDyMyslZ9EO-J-rNwAdO2t3tJsrodT9LhRb5IZLNxcgwk9">
+	</button>
+</div>
+		<script src="prj.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.flower{
+	background-color:#ff66ff;
+}
+.border{
+	border: 7px groove mediumslateblue;
+}
+.close {
+	cursor: pointer;
+	width: 100px;
+	height: 150px;	
+	border: 2px solid transparent;
+	border-radius: 80%;
+	background-color: pink;			
+}
+.flower-item {
+	text-align: center;
+	width: 10%;
+
+	margin: 0 20px;
+	padding: 10px;
+}
+.flower_pictures-buy span{
+
+	width:20px;
+	height:20px;
+	cursor:pointer;
+	text-align:center;
+}
+.flower_pictures-buy input{
+	width:30px;
+	text-align:center;
+}
+.h1{
+text-align: center;
+}
+.justify-right{
+	justify-content: center;
+}
+
+.oplata {
+	width:300px;
+	height:100px;
+	cursor: pointer;
+	text-align:right;
+}
